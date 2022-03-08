@@ -12,15 +12,15 @@ const style = {
 const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 const token2 = process.env.MAPBOX_ACCESS_TOKEN2
 
-mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN2
+// mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN2
 //mapboxgl.accessToken = 'pk.eyJ1Ijoibm5ubm5udCIsImEiOiJjbDBpZzVxeWgwMGk0M2Nwd3J2aGtnczNtIn0.Etizai_i2jE4zdOccqrsXg';
 
-// mapboxgl.accessToken = 'pk.eyJ1Ijoibm5ubm5udCIsImEiOiJjbDBpaDN3aWEwMnJyM2RwNjEzYTllMzUxIn0.uYqkG8QtAgbIhcuBKlfhpA'
+mapboxgl.accessToken = 'pk.eyJ1Ijoibm5ubm5udCIsImEiOiJjbDBpaDN3aWEwMnJyM2RwNjEzYTllMzUxIn0.uYqkG8QtAgbIhcuBKlfhpA'
 
-console.log("key="+mapboxgl.accessToken);
+// console.log("key="+mapboxgl.accessToken);
 
-console.log("key="+token);
-console.log("key2="+token2);
+// console.log("key="+token);
+// console.log("key2="+token2);
 
 const Map = () => {
 
