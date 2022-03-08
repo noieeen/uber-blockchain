@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import UserImage from '../temp/user.png'
+import {BsPerson} from 'react-icons/bs'
 
 const style = {
   wrapper: `h-16 w-full bg-black text-white flex md:justify-around items-center px-60 fixed z-20`,
@@ -14,6 +15,8 @@ const style = {
 }
 
 const currentAccount = '0x2a7297C38BfBAE7fa8fb595A39f49DC89307D88F'
+// const currentAccount = ''
+
 
 const Navbar = () => {
   return (
@@ -38,6 +41,7 @@ const Navbar = () => {
           ) : (
             <div>
               <div className={style.loginButton}>
+                  <BsPerson/>
                 <div className={style.loginText}>Login</div>
               </div>
             </div>

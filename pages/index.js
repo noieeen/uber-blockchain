@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Navbar from '../components/Navbar'
+import Map from '../components/Map'
 
 const style = {
   wrapper: `h-screen w-screen flex flex-col`,
@@ -19,6 +20,7 @@ export default function Home() {
 <Navbar/>
       <div className={style.main}>
         {/* map */}
+        <Map/>
         <div className={style.rideRequestContainer}>
           <div className={style.rideRequest}>
             {/* location selector */}
